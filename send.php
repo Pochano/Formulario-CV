@@ -57,27 +57,6 @@
                 <?php
             }
 
-            echo "<table>";
-            echo "<tr>";
-            echo "<th><h1>id</th></h1>";
-            echo "<th><h1>Nombre</th></h1>";
-            echo "<th><h1>Usuario</th></h1>";
-            echo "<th><h1>Contraseña</th></h1>";
-            echo "</tr>";
-            while ($colum = mysqli_fetch_array($resultado))
-                echo "<tr>";
-                echo "<td><h2>" . $colum['id']. "</td></h2>";
-                echo "<td><h2>" . $colum['nombre']. "</td></h2>";
-                echo "<td><h2>" . $colum['nacimiento'] . "</td></h2>";
-                echo "<td><h2>" . $colum['ocupacion'] . "</td></h2>";
-                echo "<td><h2>" . $colum['pais'] . "</td></h2>";
-                echo "<td><h2>" . $colum['nivel_de_ingles'] . "</td></h2>";
-                echo "<td><h2>" . $colum['aptitudes'] . "</td></h2>";
-                echo "<td><h2>" . $colum['lenguage'] . "</td></h2>";
-                echo "<td><h2>" . $colum['Habilidades'] . "</td></h2>";
-                echo "</tr>";
-            }
-            echo "</table>";
 
         }
 
@@ -87,5 +66,5 @@
             <?php
         }
 
-
+    }
 ?>
